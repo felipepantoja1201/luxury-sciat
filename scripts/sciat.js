@@ -7,69 +7,62 @@ define([
 
   return stiatExtension({
 
-    // ====== SINGLE TARGET CATEGORY (your marketplace objects) ======
+    // ====== SINGLE TARGET CATEGORY: LUXURY ======
     category : {
-      name  : "FitnessOption",
+      name  : "Luxury",
       title : {
-        media : { word : "Fitness item" },
+        media : { word : "Luxury" },
         css   : { "font-size" : "2em" },
         height: 7
       },
       media : [
-        { word : "protein supplements" },
-        { word : "pre-workout powder" },
-        { word : "fat burner pills" },
-        { word : "metabolism booster" },
-        { word : "alcohol-free beer" },
-        { word : "meal replacement shake" },
-        { word : "zero sugar soda" },
-        { word : "intermittent fasting" },
-        { word : "hormonal modulation" },
-        { word : "weight-loss injection" }
+        { word : "craftmanship" },
+        { word : "unique" },
+        { word : "prestige" },
+        { word : "premium" },
+        { word : "expensive" },
+        { word : "sophisticated" },
       ],
       css : { "font-size" : "3em" }
     },
 
-    // ====== ATTRIBUTES ======
-    attribute1 : { // typically mapped as "Unhealthy" in one key pairing
-      name  : "Unhealthy",
+    // ====== ATTRIBUTE 1: SELF-ENHANCEMENT ======
+    attribute1 : {
+      name  : "Self-enhancement",
       title : {
-        media : { word : "Unhealthy" },
+        media : { word : "Self-enhancement" },
         css   : { "font-size" : "2em" },
         height: 7
       },
       media : [
-        { word : "harmful" },
-        { word : "risky" },
-        { word : "damaging" },
-        { word : "toxic" },
-        { word : "unhealthful" },
-        { word : "bad-for-you" }
+        { word : "power" }
+        { word : "ambition" },
+        { word : "achievement" },
+        { word : "dominance" },
+        { word : "money" },
+        { word : "status" }
       ],
       css : { "font-size" : "3em" }
     },
 
-    attribute2 : { // typically mapped as "Healthy" in the other key pairing
-      name  : "Healthy",
+    // ====== ATTRIBUTE 2: SELF-TRANSCENDENCE ======
+    attribute2 : {
+      name  : "Self-transcendence",
       title : {
-        media : { word : "Healthy" },
+        media : { word : "Self-transcendence" },
         css   : { "font-size" : "2em" },
         height: 7
       },
       media : [
-        { word : "wholesome" },
-        { word : "beneficial" },
-        { word : "nourishing" },
-        { word : "healthful" },
-        { word : "safe" },
-        { word : "good-for-you" }
+        { word : "benevolence" },
+        { word : "equality" },
+        { word : "tolerance" },
+        { word : "care" },
+        { word : "harmony" },
+        { word : "fairness" },
       ],
       css : { "font-size" : "3em" }
     }
-
-    // Note: qstiat6.js has defaults for block/trial structure.
-    // If you want me to hard-set block lengths, error feedback, or counterbalancing,
-    // paste your current sciat.js and I'll modify it precisely to that extension's options.
 
   });
 });
