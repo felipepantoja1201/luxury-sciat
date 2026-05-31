@@ -1,6 +1,6 @@
 define([
   "pipAPI",
-  "https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/stiat/qualtrics/qstiat6.js"
+  "https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.7.3/stiat/qualtrics/qstiat6.js"
 ], function(APIConstructor, stiatExtension){
 
   var API = new APIConstructor();
@@ -26,9 +26,9 @@ define([
     },
 
     attribute1 : {
-      name  : "Self-enhancement",
+      name  : "Self enhancement",
       title : {
-        media : { word : "Self-enhancement" },
+        media : { word : "Self enhancement" },
         css   : { "font-size" : "2em" },
         height: 7
       },
@@ -44,9 +44,9 @@ define([
     },
 
     attribute2 : {
-      name  : "Self-transcendence",
+      name  : "Self transcendence",
       title : {
-        media : { word : "Self-transcendence" },
+        media : { word : "Self transcendence" },
         css   : { "font-size" : "2em" },
         height: 7
       },
@@ -57,37 +57,6 @@ define([
         { word : "care" },
         { word : "harmony" },
         { word : "fairness" }
-      ],
-      css : { "font-size" : "3em" }
-    }
-
-  });
-});      media : [
-        { word : "power" },
-        { word : "ambition" },
-        { word : "achievement" },
-        { word : "dominance" },
-        { word : "money" },
-        { word : "status" }
-      ],
-      css : { "font-size" : "3em" }
-    },
-
-    // ====== ATTRIBUTE 2: SELF-TRANSCENDENCE ======
-    attribute2 : {
-      name  : "Self-transcendence",
-      title : {
-        media : { word : "Self-transcendence" },
-        css   : { "font-size" : "2em" },
-        height: 7
-      },
-      media : [
-        { word : "benevolence" },
-        { word : "equality" },
-        { word : "tolerance" },
-        { word : "care" },
-        { word : "harmony" },
-        { word : "fairness" },
       ],
       css : { "font-size" : "3em" }
     }
