@@ -35,7 +35,7 @@ define([
         height: 7
       },
       media : [
-        { word : "power" }
+        { word : "power" },
         { word : "ambition" },
         { word : "achievement" },
         { word : "dominance" },
