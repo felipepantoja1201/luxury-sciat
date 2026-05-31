@@ -10,17 +10,17 @@ define([
     category : {
       name  : "Luxury",
       title : {
-        media : { word : "Luxury" },
+        media : { word : "Luxury brand" },
         css   : { "font-size" : "2em" },
         height: 7
       },
       media : [
-        { word : "craftsmanship" },
-        { word : "unique" },
-        { word : "prestige" },
-        { word : "premium" },
-        { word : "expensive" },
-        { word : "sophisticated" }
+        { word : "Gucci" },
+        { word : "Ferrari" },
+        { word : "Rolex" },
+        { word : "Louis Vuitton" },
+        { word : "Hermès" },
+        { word : "Ralph Lauren" }
       ],
       css : { "font-size" : "3em" }
     },
